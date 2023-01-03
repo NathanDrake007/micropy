@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: gateway
-          image: nathandrake078/micropy-gateway
+          image: # add your image name
           envFrom:
             - configMapRef:
                 name: gateway-configmap

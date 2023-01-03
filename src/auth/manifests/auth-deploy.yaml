@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: nathandrake078/micropy-auth
+          image: # add your image name
           ports:
             - containerPort: 5000
           envFrom:
